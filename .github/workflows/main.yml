@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: satyapaluri/nodetest@v1.1
+        uses: satya-paluri/nodetest@v1.1
         with:
           who-to-greet: 'Satya'
       # Use the output from the `hello` step
